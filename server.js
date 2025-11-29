@@ -16,7 +16,7 @@ app.use(express.json());
 // ==================== 配置 API 密钥 ====================
 // 👇 把你的密钥填在这里
 const BAIDU_APP_ID = '20251127002507313';        // 替换成你的 APP ID
-const BAIDU_SECRET_KEY = 'abcdef123456789';    // 替换成你的密钥
+const BAIDU_SECRET_KEY = 'Kghf4u8d7gUkMdQgg3Z9';    // 替换成你的密钥
 
 // ==================== 1. OCR 图片识别 ====================
 app.post('/api/ocr', upload.single('image'), async (req, res) => {
